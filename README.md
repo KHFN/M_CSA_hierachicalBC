@@ -15,7 +15,16 @@ install [herumi/mcl](https://github.com/herumi/mcl)
     cd build
     cmake ..
     make
-    
-how to implement test code
 
-    
+After clone this repository to the same directory containing mcl and
+how to implement how to mainalgoritms: 
+
+    g++ -c -o filename.o test.cpp -I../mcl/include -lmcl -L../mcl/lib;
+    g++ -o a.exe filename.o -Iinclue -I../mcl/include -lmcl -L../mcl/lib
+    ./a.exe
+
+how to implement TxGen: 
+
+    g++ -c -o filename.o test.cpp -I../mcl/include -lmcl -L../mcl/lib;
+    g++ -o a.exe filename.o -Iinclue -I../mcl/include -lmcl -L../mcl/lib;
+    ./a.exe
