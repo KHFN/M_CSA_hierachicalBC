@@ -28,3 +28,9 @@ how to implement TxGen:
     g++ -c -o filename.o test.cpp -I../mcl/include -lmcl -L../mcl/lib;
     g++ -o a.exe filename.o -Iinclue -I../mcl/include -lmcl -L../mcl/lib;
     ./a.exe
+
+how to implement Aggtest:
+
+    g++ -c -o filename.o Aggtest.cpp -I../mcl/include -lmcl -L../mcl/lib;
+    g++ -o a.exe filename.o -Iinclue -I../mcl/include -lmcl -L../mcl/lib;
+    ./a.exe
