@@ -1,3 +1,6 @@
+/*this polynomial operation code is originated from https://github.com/accumulators-agg/go-poly/blob/master/fft/poly.go */
+
+
 #include <mcl/bls12_381.hpp>
 #include <mcl/ntt.hpp>
 #include <iostream>
