@@ -17,7 +17,8 @@ install [herumi/mcl](https://github.com/herumi/mcl)
     make
 
 After clone this repository to the same directory containing mcl and
-how to implement how to mainalgoritms: 
+
+how to implement mainalgoritms: 
 
     g++ -c -o filename.o test.cpp -I../mcl/include -lmcl -L../mcl/lib;
     g++ -o a.exe filename.o -Iinclue -I../mcl/include -lmcl -L../mcl/lib
